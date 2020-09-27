@@ -1,0 +1,163 @@
+
+
+/*General Styles */
+body{
+    margin: 0px;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.button {
+    background-color: #71757A; 
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+  }
+
+h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+    font-family:  'Secular One', sans-serif;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.1em;
+}
+
+h2{
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-style: italic;
+
+}
+
+
+
+p{
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 100;
+}
+
+/*Main*/
+#main{
+    background-color: rgba(32, 39, 49);
+}
+
+
+/* Nav bar*/
+nav{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#nav_bar a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#nav_bar{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+}
+
+#nav_bar li{
+    margin-right: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+/*Cover Page*/
+#cover_page{
+    margin: 0 20px;
+    height: 46rem;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+
+#cover_page_image{
+    position: absolute;
+    top: 44px;
+    right: .1rem;
+    height: 46rem;
+    width: 46rem;
+    opacity: 0.65;
+}
+
+#headline{
+    text-align: center;
+    margin-left: 2rem;
+}
+/*Skills*/
+#skills{
+    height: 60px;
+    display: block;
+
+}
+
+/*Content*/
+#contents{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: 'res_img story' 
+                          '. .';
+    width: 70%;
+    margin: auto;
+    background-color: rgb(17, 17, 17);;
+
+}
+
+
+#resume{
+    justify-self:  center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#resume_image{
+    height: 10rem;
+    max-width: 10rem;
+    border-radius: 5rem;
+    grid-area: res_img;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color:  rgba(59, 59, 59, 0.6);;
+}
+
+
+#story{
+    grid-area: story;
+    padding-top: 5rem;
+    width: 80%;
+}
+
+footer{
+    height: 10rem;
+}
+
+.separator{
+    height: 60px;
+}
+
