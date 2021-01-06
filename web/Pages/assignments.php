@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Nefi's Portfoli</title>
+        <title>Assignments</title>
         <link rel='stylesheet' href='../Styles/styles.css'>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
@@ -11,28 +11,18 @@
     </head>
     <body>
         <div id='main'>
-            <nav>
-                <ul id='nav_bar'>
-                    <li><a href=index.html>Home</a></li>
-                    <li><a href="./assignments.html">Assignments</a></li>
-                    <li><a href="./portfolio.html">Porfolio</a></li>
-                </ul>
-            </nav>
+        <?php require './nav_bar.php'; ?>
             <div id='cover_page'>
                 <div id="headline">
                     <h1>In development</h1>
                 </div>
             </div>
-
         </div>
-        <div id='contents'>
-            
+        <div id='contents'> 
         </div>
-        <div class="separator">
-
-        </div>
-    
+        <div class="separator"></div>
         <footer>
+        <div class="separator"></div>
           Created by  Nefi Aguilar 2020
         </footer>
     </body>
