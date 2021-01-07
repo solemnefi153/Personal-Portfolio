@@ -4,30 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Nefi's Home Page</title>
-        <link rel='stylesheet' href='/Web/Styles/styles.css'>
+        <link rel='stylesheet' href='/Styles/styles.css'>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-        <script src='/Web/Scripts/main_script.js' defer></script>
+        <script src='/Scripts/main_script.js' defer></script>
     </head>
     <body>
         <div id='main'>
-            <?php require './Web/Pages/nav_bar.php'; ?>
+            <?php require './Pages/nav_bar.php'; ?>
             <div id='cover_page'>
                 <div id="headline">
                     <h1>Nefi Aguilar</h1>
                     <H2>The full stack web developer you are looking for</H2>
                     <h3>Passionate about HTML, CSS, Javascript Libraries and Frameworks</h3>
-                    <a href="/Web/Pages/portfolio.php"><button id='button_1' class='button'>View Portfolio</button></a>
+                    <a href="/Pages/portfolio.php"><button id='button_1' class='button'>View Portfolio</button></a>
                 </div>
             </div>
-            <img id="cover_page_image" alt="" src="/Web/Images/nefi_aguilar.png">
+            <img id="cover_page_image" alt="" src="/Images/nefi_aguilar.png">
         </div>
         <div id='skills'>
         </div>
         <div id='contents'>
             <div id='resume'>
-                <img id="resume_image" alt='' src='/Web/Images/Nefi.jpg'>
-                <a href="/Web/docs/resume.docx" download="Nefi's Resume" id='button_2'  class='button'>Download Resume</a>
+                <img id="resume_image" alt='' src='/Images/Nefi.jpg'>
+                <a href="/docs/resume.docx" download="Nefi's Resume" id='button_2'  class='button'>Download Resume</a>
             </div>
             <div id='story'>
                 <h2>My journey into  development</h2>
