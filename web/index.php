@@ -27,7 +27,7 @@
         <div id='contents'>
             <div id='resume'>
                 <img id="resume_image" alt='' src='/Images/Nefi.jpg'>
-                <a href="/docs/resume.docx" download="Nefi's Resume" id='button_2'  class='button'>Download Resume</a>
+                <a href="/docs/resume.pdf" download="Nefi's Resume" id='button_2'  class='button'>Download Resume</a>
             </div>
             <div id='story'>
                 <h2>My journey into  development</h2>
